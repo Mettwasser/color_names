@@ -1,6 +1,6 @@
 [package]
 name = "color_names"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 description = "A crate to map [r, g, b] values to the color name it corresponds to. Note that this lib is rather large and can increase compile time drastically."
 documentation = "https://docs.rs/color_names"
@@ -9,3 +9,4 @@ repository = "https://github.com/Mettwasser/color_names"
 license = "MIT"
 
 [dependencies]
+phf = { version = "0.11.2", features = [ "macros" ]}
